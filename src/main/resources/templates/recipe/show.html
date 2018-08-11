@@ -78,14 +78,25 @@
                                 <h5>URL:</h5>
                             </div>
                             <div class="col-md-3">
-                                <p><a href="#" th:href="${recipe.url}" >View Original</a></p>
+                                <p><a href="#" th:href="@{recipe.url}" >View Original</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h1 class="panel-title" >Ingredients</h1>
+                        <div class="row">
+                            <div class="col-md-11 ">
+                                <h1 class="panel-title">Ingredients</h1>
+                            </div>
+                            <div class="col-md-1">
+                                <a class="btn btn-default" href="#"
+                                   style="margin-left: -220px;"
+                                   th:href="@{'/recipe/' + ${recipe.id} + '/ingredients'}" role="button">
+                                    View All Ingredients in Other Recipes
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="panel-body">
                         <div class="row">
