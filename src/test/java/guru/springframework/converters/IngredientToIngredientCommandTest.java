@@ -11,9 +11,6 @@ import java.math.BigDecimal;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by jt on 6/21/17.
- */
 public class IngredientToIngredientCommandTest {
 
     public static final Recipe RECIPE = new Recipe();
