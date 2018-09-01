@@ -2,6 +2,8 @@
 
 "Post your recipe" is a personal recipe blog built with spring MVC.
 
+<img height="400" alt="screen shot 2018-09-01 at 10 11 48 am" src="https://user-images.githubusercontent.com/23665164/44948280-bfa69100-adcf-11e8-936c-a1f343bc238c.png">
+
 https://post-your-recipe.herokuapp.com/
 
 ## Built With
